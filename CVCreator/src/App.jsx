@@ -8,14 +8,17 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='wrapper'>
-      <div className='right'>
-        <Info />
+    <>
+      <div className='app-title'>Your Personalized CV Creator</div>
+      <div className='wrapper'>
+        <div className='right'>
+          <Info />
+        </div>
+        <div className='left'>
+          <DisplayInfo />
+        </div>
       </div>
-      <div className='left'>
-        <DisplayInfo />
-      </div>
-    </div>
+    </>
   )
 }
 
