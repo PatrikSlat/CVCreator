@@ -68,4 +68,15 @@ hr{
   padding: 20px;
   border-radius: 15px;
   background-color: rgb(241 245 249);
+  margin-bottom: 10px;
+}
+
+.question{
+  margin: 7px;
+}
+
+#space-left{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
 }
