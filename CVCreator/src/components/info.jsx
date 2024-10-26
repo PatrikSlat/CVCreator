@@ -17,6 +17,10 @@ const Info = () => {
     setEduComponent([...eduComponents.slice(0,-1)])
   }
 
+  const addInfoToDisplay = () => {
+    console.log(eduComponents)
+  }
+
   return (
     <>
       <h1> Type in your information: </h1>
@@ -27,7 +31,9 @@ const Info = () => {
         <div className="buttons">
           <GrFormTrash size={25} onClick={removeEduInfo}/>
           <GrAdd size={25} onClick={addEduInfo} />
-          <GrCheckmark size={25} />
+          <GrCheckmark size={25} onClick={() => {
+            addInfoToDisplay()
+          }}/>
         </div>
       </div>
       <PracticalInfoQ />
