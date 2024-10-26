@@ -75,6 +75,21 @@ hr{
   margin: 7px;
 }
 
+.buttons-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  background-color: rgb(241 245 249);
+  justify-content: end;
+  padding: 15px;
+  border-radius: 15px;
+}
+
 #space-left{
   padding-left: 20px;
   display: flex;
